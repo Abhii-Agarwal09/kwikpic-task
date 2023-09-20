@@ -6,12 +6,10 @@ import { setActiveEvent, setActiveEventId } from "redux-store/slices/analytics";
 import { toast } from "react-toastify";
 
 async function getGroupAnalytics({ payload }) {
-  console.log("Saga payload: ", payload);
   return AXIOS.get(`/api/app/analytics/groupAnalytics/${payload}`);
 }
 
 function* getSingleGroupAnalytics(action) {
-  console.log("Saga action: ", action);
   try {
     const res = yield call(getGroupAnalytics, {
       payload: action.payload, // Use the payload from the action
@@ -27,7 +25,6 @@ function* getSingleGroupAnalytics(action) {
 }
 
 function* setGroupId(action) {
-  console.log("Set group id action: ", action);
   yield put(
     setActiveEventId({
       activeEventId: action.payload.groupId,

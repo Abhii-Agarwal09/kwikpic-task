@@ -13,17 +13,13 @@ const analytics = createSlice({
   initialState,
   reducers: {
     setActiveEvent: (state, action) => {
-      console.log("State: ", state);
-      console.log("Action: ", action);
       const groupData = action?.payload?.res?.data?.data;
-      console.log("GroupData: ", groupData);
       return {
         ...state,
         activeEvent: groupData,
       };
     },
     setActiveEventId: (state, action) => {
-      console.log("active event id action: ", action);
       return {
         ...state,
         activeEventId: action.payload.activeEventId,

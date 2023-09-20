@@ -11,8 +11,6 @@ const EventView = () => {
 
   const { activeEvent, activeEventId, activeEventName, activeEventDate } =
     useSelector((state) => {
-      console.log(state);
-      console.log(state.analytics.activeEvent);
       return state.analytics;
     });
 
@@ -29,11 +27,6 @@ const EventView = () => {
       payload: activeEventId,
     });
   }, [activeEventId]);
-
-  console.log("Active element: ", activeEvent);
-  console.log("Active element Id: ", activeEventId);
-  console.log("Active element Name: ", activeEventName);
-  console.log("Active element Date: ", activeEventDate);
 
   return (
     <div className="event_view_container">

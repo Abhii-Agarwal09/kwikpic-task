@@ -21,7 +21,6 @@ const EventList = () => {
   }, [dispatch]);
   // const hasNoGroups = groups?.length === 0 && !initialLoader;
 
-  console.log(groups);
   const [loading, setLoading] = useState(false);
   const RenderGroups = () => {
     setLoading(true);
@@ -64,14 +63,11 @@ const EventList = () => {
           if (!group.isAdmin) return null;
           const date = new Date(group?.group?.createdAt).toLocaleDateString();
           const formattedDate = formatDateToCustomFormat(date);
-          // console.log(group?.group?.name, formattedDate);
           return (
             <div
               key={index}
               className="event"
               onClick={(e) => {
-                console.log(e.target.dataset);
-                console.log(e.target.dataset.groupId);
                 const { groupId, groupName, groupDate } = e.target.dataset;
                 const payload = { groupId, groupName, groupDate };
                 dispatch({
