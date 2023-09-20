@@ -1,0 +1,1351 @@
+/* Desktops, large screens. */
+@media (max-width: 1201px) {
+}
+
+/* Desktops, large screens. */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .face-recognition-description {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+/*  Small screens, laptops.*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  #events {
+    padding: 30px 0px;
+  }
+  #occasion {
+    padding: 30px 0px;
+  }
+  .iconchip,
+  .amazing-photo {
+    display: none;
+  }
+  .occasion-info > div {
+    left: 0px;
+    width: 100%;
+  }
+  .occasion-overlay-container {
+    display: none;
+  }
+
+  .testimonial-body-container {
+    width: 70%;
+  }
+  #memories {
+    height: 1842px;
+  }
+  .introduce-info .title {
+    font-size: 30px;
+  }
+  .introduce-info .description {
+    font-size: 15px;
+  }
+
+  .store-image {
+    display: flex;
+    justify-content: space-between;
+  }
+  .store-image img {
+    width: 170px;
+    height: 64px;
+  }
+  .applicaiton-link .app-links {
+    display: flex;
+  }
+  .applicaiton-link .try-app {
+    font-size: 30px;
+  }
+  .app-links {
+    /* justify-content: space-around; */
+    align-items: center;
+  }
+  .introduce-info-image {
+    margin-left: 0px;
+  }
+}
+
+/* IPAD AND TABLET DEVICES */
+@media (min-width: 481px) and (max-width: 768px) {
+  .contactus {
+    padding: 0px 0px;
+  }
+  .testimonial-quote {
+    left: 0px;
+    top: 70px;
+  }
+  .subscription {
+    background-color: #fff !important;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .subscription .subscribe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .subscribe input {
+    width: 358px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+
+  .contactus {
+    padding-bottom: 0px;
+  }
+
+  .applicaiton-link {
+    text-align: center;
+  }
+
+  .social-media-icona {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 0px;
+  }
+
+  .footer-copyright {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .footer-copyright > a {
+    font-size: 12px;
+  }
+
+  .footer-copyright a {
+    padding-bottom: 15px;
+  }
+
+  .footer-copyright div {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat" !important;
+    font-weight: 600 !important;
+  }
+  
+  .footer-copyright div p {
+    display: none;
+  }
+
+  .footer-info .landing-footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .landing-footer .logo {
+    padding: 10px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .show-icon {
+    display: block;
+    margin-left: auto;
+  }
+
+  .faqs-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .carousel {
+    display: block;
+  }
+
+  .desktop-box {
+    display: none;
+  }
+
+  .face-count .card-box {
+    margin-bottom: 20px;
+  }
+
+  .face-count {
+    justify-content: center;
+  }
+
+  .community-img {
+    height: 286px;
+  }
+
+  .every-where {
+    margin-top: 5vh;
+  }
+
+  .every-where .celebration-img {
+    height: 400px;
+  }
+
+  .get-started-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 394px;
+  }
+
+  .choose-us-img img {
+    width: 100%;
+    margin-bottom: 0px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .introduce-info > .title {
+    font-size: 30px;
+  }
+
+  .signUp,
+  .download-button {
+    width: 100%;
+  }
+
+  .app-links {
+    /* justify-content: space-around; */
+    align-items: center;
+  }
+  .app-links img {
+    width: 170px;
+    height: 64px;
+  }
+  .applicaiton-link .try-app {
+    font-size: 30px;
+  }
+  .applicaiton-link .app-links {
+    display: flex;
+  }
+  .iconchip,
+  .amazing-photo {
+    display: none;
+  }
+  #events {
+    padding: 20px 0px;
+  }
+
+  .occasion-info > div {
+    left: 0px;
+    width: 100%;
+  }
+  .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .outlined-button {
+    margin-bottom: 10px;
+    min-width: 150px;
+  }
+
+  .occasion-info h1,
+  #events h1,
+  .amazing-photo-wrapper h1 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 32px;
+  }
+  .occasion-info p,
+  #events p,
+  .amazing-photo-wrapper p {
+    font-size: 16px;
+  }
+
+  .info-widget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .info-widget img {
+    width: 83px;
+    height: 83px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+
+  .info-widget h4 {
+      font-size: 18px;
+      line-height: 21.94px;
+      font-family: Montserrat;
+      font-weight: 600;
+      margin-bottom: 10px;
+  }
+
+  .info-widget p {
+      font-size: 18px !important;
+      line-height: 25px !important;
+      font-family: Montserrat;
+      font-weight: 500;
+      left: 0px !important;
+  }
+
+  .info-widget div {
+      position: absolute;
+      bottom: 10px;
+  }
+
+  #testimonial {
+    margin-top: 30px;
+  }
+
+  .testimonial-header h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #3e6588;
+  }
+
+  #occasion,
+  #events {
+    padding: 0px;
+  }
+
+  .amazing-photo-wrapper {
+    padding-top: 30px;
+  }
+  .memories-img {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+  }
+  .card-wrapper {
+    width: 400px;
+  }
+  .member img {
+    width: 165.32px;
+    height: 183px;
+  }
+  .our-office .address {
+    width: auto;
+  }
+  .brand-ambassador .member img {
+    width: auto;
+    height: 208px;
+  }
+  .brand-ambassador-description p {
+    width: auto;
+  }
+  .team-members {
+    width: 100%;
+  }
+  .about-us-title p {
+    width: auto;
+  }
+  .memories-img .description p {
+    width: auto;
+    font-weight: 400;
+  }
+  .card-with-icon .group {
+    justify-content: center;
+  }
+  .card-wrapper {
+    width: 350px;
+    padding: 10px;
+  }
+  .card-wrapper {
+    width: none;
+    justify-content: flex-start;
+  }
+  .card-wrapper-descripton p {
+    width: auto;
+  }
+  .card-wrapper-descripton h1 {
+    font-size: 20px;
+  }
+  .about-kwikpic {
+    top: 1179px;
+  }
+  .about-kwikpic .desktop-mobile-img {
+    height: 254px;
+    left: 185px;
+    margin: 20px 0px;
+  }
+  .offcanvas-body .navigation-links .active {
+    width: auto;
+    height: auto;
+    background: var(--bs-white);
+    box-shadow: 1px 1px 5px rgb(37 98 154 / 20%);
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -40px !important;
+    padding: 10px 10px 10px 40px;
+    color: #2887af;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .offcanvas-body {
+    flex-grow: 1;
+    padding: 0rem !important;
+    overflow-y: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .signUp,
+  .download-button {
+    width: 100%;
+  }
+  .box-info > .info > .description {
+    width: 330px;
+  }
+  .get-started-info .get-started-description {
+    width: auto;
+  }
+  .photograper-container .get-started-description {
+    width: 100%;
+  }
+  .photographer-image {
+    margin-left: 52px;
+    width: 86%;
+  }
+  .text-header {
+    width: auto;
+  }
+  .under-line {
+    margin: 16px 0px 32px 0px;
+  }
+  .photograper-container {
+    margin-left: 0px;
+  }
+  .memories-img .description h2 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .about-us-title h1 {
+    font-size: 24px;
+    line-height: 16px;
+  }
+  .item-package-button {
+    width: 78%;
+  }
+  .main-dark-header {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .footer-logo {
+    padding-left: 10px;
+    height: 36px;
+  }
+  .brand-ambassador-description h1 {
+    font-size: 24px;
+  }
+
+  /* 320px - 768px */
+  #hero h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  #hero p {
+    font-size: 18px;
+  }
+  #occasion {
+    padding: 20px 0px;
+    padding-left: 0px;
+  }
+  .pricing-control-wrapper {
+    flex-direction: column;
+  }
+  .pricing-control-wrapper .check-box label:nth-child(1),
+  .pricing-control-wrapper .check-box label:nth-child(3) {
+    margin-bottom: 16px;
+  }
+  .memories-img {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+  }
+  #memories {
+    height: 1380px;
+  }
+  .memories-img .description {
+    padding-top: 200px;
+  }
+  .card-with-icon {
+    padding-top: 200px;
+  }
+  .faqs-img {
+    display: flex;
+    align-items: center;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .show-icon {
+    display: block;
+    margin-left: auto;
+  }
+  .introduce-info-image {
+    margin-left: 0px;
+  }
+  /* HEADER */
+  .card-box {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+  }
+  .btn-primary {
+    margin-top: auto;
+    width: 100%;
+  }
+  .get-started-info {
+    margin-left: 0px;
+  }
+  .text-header {
+    width: auto;
+  }
+  .card-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .pricing-wrapper {
+    padding: 30px 20px;
+  }
+  .logo {
+    width: auto;
+    height: 34px;
+  }
+}
+
+/* MOBILE AND SMALL DEVICES */
+@media (min-width: 320px) and (max-width: 480px) {
+  .contactus {
+    padding: 0px 0px;
+  }
+
+  .contact-us a {
+    font-size: 15px;
+  }
+  .subscription {
+    background-color: #fff !important;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .testimonial-quote {
+    left: 0px;
+    top: 70px;
+  }
+
+  .subscription .subscribe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .subscribe input {
+    width: 358px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+
+  .contactus {
+    padding-bottom: 0px;
+  }
+
+  .applicaiton-link {
+    text-align: center;
+  }
+
+  .social-media-icona {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .footer-info a {
+    padding-right: 0px;
+  }
+  .icon-background {
+    margin-right: 0px;
+  }
+
+  .footer-copyright {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px;
+    gap: 10px;
+  }
+
+  .footer-copyright > a {
+    font-size: 12px;
+  }
+  
+  .footer-copyright a {
+    padding-bottom: 15px;
+  }
+  
+  .footer-copyright div {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat" !important;
+    font-weight: 600 !important;
+  }
+  
+  .footer-copyright div p {
+    display: none;
+  }
+
+  .footer-info .landing-footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0px;
+  }
+
+  .landing-footer .logo {
+    padding: 10px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .show-icon {
+    display: block;
+    margin-left: auto;
+  }
+
+  .faqs-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .carousel {
+    display: block;
+    background-color: #F5F5F5;
+  }
+
+  .desktop-box {
+    display: none;
+  }
+
+  .face-count .card-box {
+    margin-bottom: 20px;
+  }
+
+  .face-count {
+    justify-content: center;
+  }
+
+  .community-img {
+    background-image: url(../images/landing/Group1721.png);
+    height: 286px;
+  }
+
+  .every-where {
+    margin: 5vh;
+  }
+
+  .every-where .celebration-img {
+    background-image: url(../images/landing/Group1706.png);
+    height: 400px;
+  }
+
+  .get-started-img {
+    background: url(../images/landing/Group-mobile-771.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 342px;
+    margin-bottom: 0px;
+  }
+
+  .choose-us-img img {
+    width: 100%;
+    margin-bottom: 0px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .introduce-info > .title {
+    font-size: 30px;
+  }
+
+  .signUp,
+  .download-button {
+    width: 100%;
+    /* margin-top: 20px; */
+  }
+
+  .app-links {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .app-links img {
+    width: 158px;
+    height: 54px;
+  }
+  .applicaiton-link .try-app {
+    font-size: 30px;
+  }
+  .applicaiton-link .app-links {
+    display: flex;
+  }
+  .iconchip,
+  .amazing-photo {
+    display: block;
+  }
+  .testimonail-body .iconchip{
+    display: none;
+  }
+
+  /* ICON CHIP POSITIONS */
+  .icon-chip-one {
+    left: 21px;
+    top: 16px;
+    width: 86px;
+    height: 45.34px;
+  }
+
+  .icon-chip-two {
+    bottom: 25px;
+    right: 30px;
+    width: 74px;
+    height: 38.34px;
+  }
+
+  .icon-chip-three {
+    top: 54px;
+    right: 27px;
+    width: 74px;
+    height: 40.34px;
+  }
+
+  .icon-chip-four {
+    top: 372px;
+    right: 126px;
+    width: 84px;
+    height: 48.34px;
+  }
+
+  .icon-chip-five {
+    top: 84px;
+    left: 115px;
+    width: 74px;
+    height: 40.34px;
+  }
+
+  .icon-chip-six {
+    top: 411px;
+    left: 37px;
+    width: 62px;
+    height: 35.34px;
+  }
+
+  #events {
+    padding: 20px 0px;
+  }
+
+  .occasion-info > div {
+    left: 0px;
+    width: 100%;
+  }
+  .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .outlined-button {
+    margin-bottom: 10px;
+    min-width: 150px;
+  }
+
+  .occasion-info h1,
+  #events h1,
+  .amazing-photo-wrapper h1 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 32px;
+  }
+  .occasion-info p,
+  #events p,
+  .amazing-photo-wrapper p {
+    font-size: 16px;
+  }
+
+  .info-widget {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .info-widget img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+
+  .info-widget h4 {
+      font-size: 18px;
+      line-height: 21.94px;
+      font-family: Montserrat;
+      font-weight: 600;
+      margin-bottom: 10px;
+  }
+
+  .info-widget p {
+      font-size: 18px !important;
+      line-height: 25px !important;
+      font-family: Montserrat;
+      font-weight: 500;
+      left: 0px !important;
+  }
+
+  .info-widget div {
+      position: absolute;
+      bottom: 10px;
+  }
+  #testimonial {
+    margin-top: 30px;
+  }
+
+  .testimonial-header h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #3e6588;
+  }
+
+  #events {
+    padding: 0px;
+  }
+
+  .amazing-photo-wrapper {
+    padding-top: 30px;
+  }
+  .memories-img {
+    width: 100%;
+    height: 700px;
+    background: url(/assets/images/landing/Rectangle-mobile283.png);
+    background-size: cover;
+  }
+  .card-wrapper {
+    width: 400px;
+  }
+  .member img {
+    width: 165.32px;
+    height: 183px;
+  }
+  .our-office .address {
+    width: auto;
+  }
+  .brand-ambassador .member img {
+    width: auto;
+    height: 208px;
+  }
+  .brand-ambassador-description p {
+    width: auto;
+  }
+  .team-members {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .about-us-title p {
+    width: auto;
+  }
+  .memories-img .description p {
+    width: auto;
+    font-weight: 400;
+  }
+  .card-with-icon .group {
+    justify-content: center;
+  }
+  .card-wrapper {
+    width: 350px;
+    padding: 10px;
+  }
+  .card-wrapper {
+    width: none;
+    justify-content: flex-start;
+  }
+  .card-wrapper-descripton p {
+    width: auto;
+  }
+  .card-wrapper-descripton h1 {
+    font-size: 20px;
+  }
+  .about-kwikpic {
+    top: 1179px;
+  }
+  .about-kwikpic .desktop-mobile-img {
+    height: 254px;
+    left: 185px;
+    margin: 20px 0px;
+  }
+  .offcanvas-body .navigation-links .active {
+    width: auto;
+    height: auto;
+    background: var(--bs-white);
+    box-shadow: 1px 1px 5px rgb(37 98 154 / 20%);
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -40px !important;
+    padding: 10px 10px 10px 40px;
+    color: #2887af;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .offcanvas-body {
+    flex-grow: 1;
+    padding: 0rem !important;
+    overflow-y: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .signUp,
+  .download-button {
+    width: 100%;
+  }
+  .box-info > .info > .description {
+    width: 240px;
+  }
+  .get-started-info .get-started-description {
+    width: auto;
+  }
+  .photograper-container .get-started-description {
+    width: 100%;
+  }
+  .photographer-image {
+    margin-left: 52px;
+    width: 86%;
+  }
+  .text-header {
+    width: auto;
+  }
+  .under-line {
+    margin: 16px 0px 32px 0px;
+  }
+  .photograper-container {
+    margin-left: 0px;
+  }
+  .memories-img .description h2 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .about-us-title h1 {
+    font-size: 24px;
+    line-height: 16px;
+  }
+  .item-package-button {
+    width: 78%;
+  }
+  .main-dark-header {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .footer-logo {
+    padding-left: 0px;
+    height: 34px;
+  }
+  .brand-ambassador-description h1 {
+    font-size: 24px;
+  }
+
+  /* 320px - 768px */
+  #hero h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  #hero p {
+    font-size: 18px;
+  }
+  #occasion {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .pricing-control-wrapper {
+    flex-direction: column;
+  }
+  .pricing-control-wrapper .check-box label:nth-child(1),
+  .pricing-control-wrapper .check-box label:nth-child(3) {
+    margin-bottom: 16px;
+  }
+  .amazing-photo-wrapper {
+    padding-bottom: 50px;
+  }
+  .memories-img {
+    width: 100%;
+    height: 700px;
+    background: url(/assets/images/landing/Rectangle-mobile283.png);
+    background-size: cover;
+  }
+  #memories {
+    height: 1840px;
+  }
+  .memories-img .description {
+    padding-top: 200px;
+  }
+  .card-with-icon {
+    padding-top: 200px;
+  }
+  .faqs-img {
+    display: flex;
+    align-items: center;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .show-icon {
+    display: block;
+    margin-left: auto;
+  }
+  .introduce-info-image {
+    margin-left: 0px;
+  }
+  /* HEADER */
+  .card-box {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+  }
+  .btn-primary {
+    margin-top: auto;
+    width: 100%;
+  }
+  .get-started-info {
+    margin-left: 0px;
+  }
+  .text-header {
+    width: auto;
+  }
+  .card-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .pricing-wrapper {
+    padding: 30px 20px;
+  }
+  .contact-us {
+    flex-direction: column;
+  }
+  .logo {
+    width: auto;
+    height: 30px;
+  }
+  .gallary-header-logo {
+    height: 34px;
+  }
+  .testimonial-body-container {
+    width: 340px;
+    margin: 36px 0px 40px 0px;
+  }
+  .testimonial-item h1 {
+    width: 100%;
+  }
+  .slick-dots li button:before {
+    font-size: 10px !important;
+  }
+  .testimonial-header p {
+    font-size: 24px;
+  }
+  .pricing-header p {
+    font-size: 24px;
+  }
+  #celebration {
+    padding: 20px 0px;
+  }
+  #working {
+    padding: 20px 0px;
+  }
+  .member:first-child {
+    margin-right: 0px;
+  }
+  .introduce-info .description {
+    font-size: 18px;
+  }
+  .item-package-desciption {
+    font-size: 14px;
+  }
+  #counts {    
+    padding: 29px 0px;
+  }
+}
+
+/* landscape */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  .amazing-photo-wrapper .col-md-6 {
+    width: 100%;
+  }
+  .card-with-icon .group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .box-info > .info > .description {
+    width: 325px;
+  }
+  .card-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-wrapper {
+    padding: 30px 20px;
+  }
+}
+
+/* BOOTSTRAP RESPONSIVE */
+@media (max-width: 992px) {
+  .temp3-header {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  .offcanvas-body .navigation-links .active {
+    width: auto;
+    height: auto;
+    background: var(--bs-white);
+    box-shadow: 1px 1px 5px rgb(37 98 154 / 20%);
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -40px !important;
+    padding: 10px 10px 10px 40px;
+    color: #2887af;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .offcanvas-body {
+    flex-grow: 1;
+    padding: 0rem !important;
+    overflow-y: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .offcanvas-header {
+    margin-bottom: 20px;
+  }
+  .signUp,
+  .download-button {
+    /* margin-top: auto; */
+    width: 100%;
+  }
+
+  /* HEADER */
+  .card-box {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+  }
+  .get-started-info {
+    margin-left: 0px;
+  }
+  .photograper-background-top {
+    display: block !important;
+  }
+  .photograper-background-bottom {
+    display: none !important;
+  }
+
+  .create-join-sub {
+    display: block;
+  }
+  .navbar > .landing-header {
+    justify-content: unset !important;
+  }
+  .create-join-sub {
+    margin-left: auto;
+  }
+
+  .button-box {
+    display: block;
+    margin-top: auto;
+    width: auto;
+    height: 168px;
+    background: #ffffff;
+    box-shadow: 1px -4px 47px rgba(62, 101, 136, 0.15),
+      -1px -1px 10px rgba(62, 101, 136, 0.08);
+    border-radius: 3px 3px 0px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .signUp-desktop {
+    display: none;
+  }
+}
+
+/* smallest device */
+@media (max-width: 320px) {
+  .testimonial-quote {
+    left: 0px;
+    top: 70px;
+  }
+
+  .contact-us {
+    font-size: 12px;
+    flex-direction: column;
+  }
+  
+  .contact-us a {
+    font-size: 15px;
+  }
+  .button-group {
+    flex-direction: column;
+  }
+  #hero button:nth-child(1) {
+    margin-right: 0px;
+  }
+  .pricing-control-wrapper {
+    flex-direction: column;
+  }
+  .pricing-control-wrapper .check-box label:nth-child(1),
+  .pricing-control-wrapper .check-box label:nth-child(3) {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  .pricing-list-item {
+    padding: 10px 20px;
+  }
+
+  .amazing-photo-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .app-links {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .app-links img {
+    width: 140px;
+    height: 54px;
+  }
+  .applicaiton-link .app-links {
+    display: flex;
+  }
+  .get-started-info {
+    margin-left: 0px;
+  }
+  .box-info > .info > .description {
+    width: 120px;
+  }
+  .photographer-image {
+    margin-left: 52px;
+    width: 86%;
+  }
+  .box-info > .info > .description {
+    width: 200px;
+  }
+  .box-info > .info > .description {
+    width: 180px;
+  }
+  .card-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .create-join-sub {
+    display: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  .about-us-mobile-view {
+    width: 100vw;
+    display: block;
+  }
+
+  .about-us-desktop-view {
+    display: none;
+  }
+  .gallary-header-logo {
+    height: 34px;
+  }
+}
+@media (min-width: 1400px) {
+  .about-us-mobile-view {
+    display: none;
+  }
+  .landing-header .offcanvas-body .navbar-nav:nth-child(2) {
+    margin-left: 130px;
+  }
+
+  .about-us-desktop-view {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .temp-gallary-image.temp4-gallary-image .gallaryHeadingRight h2 {
+    max-height: 100px;
+  }
+  #selected-users-wrapper {
+    max-width: 90% !important;
+    width: 90% !important;
+    margin: 0px auto 0px auto;
+  }
+  .right-participants-caret {
+    right: -20px;
+  }
+
+  .left-participants-caret {
+    left: -20px;
+  }
+
+  .FAQ-mobile {
+    display: block;
+  }
+
+  .FAQ-pc {
+    display: none;
+  }
+  .contact-form {
+    width: calc(100vw - 20px) !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 768px) {
+  .FAQ-mobile {
+    display: none;
+  }
+
+  .FAQ-pc {
+    display: block;
+  }
+}
+@media (max-width: 1140px) {
+  .navbar > .landing-header > .offcanvas > .offcanvas-body > .navbar-nav {
+    padding: 0 !important;
+  }
+}

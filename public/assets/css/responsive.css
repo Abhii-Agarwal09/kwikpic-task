@@ -1,0 +1,812 @@
+@media only screen and (min-width: 1000px) {
+    .defaultHeader .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 2rem;
+        margin: 0 !important;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .defaultHeader .container {
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .participantsTable .ReactVirtualized__Table__headerRow .ReactVirtualized__Table__headerColumn:nth-child(2),
+    .participantsTable .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__rowColumn:nth-child(2),
+    .participantsTable .ReactVirtualized__Table__headerRow .ReactVirtualized__Table__headerColumn:nth-child(3),
+    .participantsTable .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__rowColumn:nth-child(3) {
+        display: none !important;
+    }
+
+    .switchOnMobile {
+        flex-direction: column-reverse;
+    }
+    
+    .emptyGallary p{
+        margin-top: 5rem;
+    }
+}
+
+/*@media only screen and (max-width: 980px) {*/
+/*    .customHeader {*/
+/*        width: 100%;*/
+/*        height: 60px;*/
+/*        display: flex !important;*/
+/*        align-items: center;*/
+/*        padding: 0 2rem;*/
+/*        box-shadow: 1px 1px 5px 0 rgb(208 208 208 / 69%);*/
+/*    }*/
+
+/*    .customHeader img {*/
+/*        height: 40px;*/
+/*    }*/
+/*    .mobileHeader {*/
+/*        width: 100%;*/
+/*        height: 60px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        padding: 0 2rem;*/
+/*        box-shadow: 1px 1px 5px 0 rgb(208 208 208 / 69%) !important;*/
+/*    }*/
+
+/*    .for-mobile {*/
+/*        display: inline-block !important;*/
+/*    }*/
+
+/*    .for-pc {*/
+/*        display: none !important;*/
+/*    }*/
+/*}*/
+
+@media only screen and (max-width: 980px) {
+    .photo-item {
+        width: 33.33% !important;
+    }
+
+    .rightSide .drawerItems ul li a {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .participants-modal-name {
+        width: 80%;
+    }
+    .mobile-photo-count {
+        display: block;
+    }
+    .pc-photo-count {
+        display: none;
+    }
+    .group-view-card-outer {
+        height: 60px;
+    }
+    .group-view-card-outer > div {
+        width: 70%;
+        max-width: 70%;
+    }
+    .settingRadioCard .px-3 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .settingRadioCard label h4 {
+        font-size: 14px;
+    }
+
+    .max-180 {
+        min-width: auto !important;
+    }
+
+    .gallaryHeadingLeft h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+    .gallaryHeadingLeft h2 span{
+        font-size: 11px;
+    }
+    .defaultHeader > .navbar {
+        padding: 8px 0px 15px 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .login-right-side {
+        height: auto;
+    }
+    .mobile-top-margin {
+        margin-top: 50px;
+    }
+    .conver-edit-dropdown .dropdown button {
+        bottom: 0 !important;
+    }
+    .click-selfie-text {
+        font-size: 24px;
+    }
+    .retakeCard > div {
+        margin-top: 0 !important;
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .onMobile-mb-2 {
+        margin-bottom: 20px;
+    }
+
+    .col7 {
+        display: none;
+    }
+
+    .col5 {
+        width: 100%;
+    }
+
+    .authFormContainer {
+        min-height: auto;
+    }
+
+    .homePage {
+        padding: 20px;
+    }
+
+    .emptyGroup {
+        max-height: 550px;
+        background-image: url("../images/groups/no-groups-mobile.png");
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        padding-bottom: 75px;
+    }
+
+    .pageHeading.d-flex.justify-content-between {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    .settingPageHeading h2 {
+        font-size: 18px;
+    }
+
+    .primaryButton,
+    .secondaryButton {
+        height: 50px;
+        font-size: 14px;
+        padding: 0 1rem;
+    }
+
+    .defaultInput {
+        height: 34px;
+        font-size: 14px;
+    }
+
+/*     .gallaryHeadingRight .d-flex.flex-column.align-items-end {
+        align-items: flex-start !important;
+    } */
+
+    .companyLogo img {
+        height: 50px !important;
+    }
+    .companyLogo {
+        padding-left: 0;
+        border-left: none;
+        border-right: 1px solid #3a3a3a;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .rightSide {
+        width: 100% !important;
+        height: auto !important;
+        padding: 1rem !important;
+    }
+
+    .drawerMenu {
+        display: inline-block;
+    }
+
+    .mobileHeader {
+        display: flex;
+        box-shadow: none;
+    }
+
+    .authScreen .defaultButtom {
+        max-width: 100%;
+    }
+
+    .defaultInput {
+        height: 50px;
+    }
+
+    .overRideHeader.bg-light {
+        width: 100%;
+        position: absolute !important;
+        background-color: transparent !important;
+    }
+
+    .temp-gallary-image.temp1-gallary-image img {
+        /* width: 100%;
+        height: 100%; */
+        object-fit: cover;
+    }
+
+    .gallaryHeading {
+        padding: 20px 20px 0 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .gallaryHeadingRight {
+        font-size: 12px;
+    }
+    .temp-gallary-image.temp2-gallary-image .companyLogoDivider {
+        display: block;
+    }
+    .companyLogoDivider {
+        display: none;
+    }
+    .temp2-nav .companyLogoDivider {
+        display: block;
+    }
+    .gallaryHeadingRight {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end !important;
+    }
+
+    .secondaryButton {
+        height: 50px;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .showOnMobile {
+        display: inline-block;
+    }
+
+    .pageContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .clickIcons.showOnMobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    video {
+        width: 100% !important;
+    }
+
+    .clickIcons.showOnMobile ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 30px 0 0;
+        padding: 0;
+    }
+
+    .clickIcons.showOnMobile ul li {
+        margin-left: 30px;
+        width: 67px;
+    }
+
+    .clickIcons.showOnMobile ul li:first-child {
+        margin-left: 0;
+    }
+
+
+    .EZDrawer__container {
+        min-width: 75%;
+    }
+
+    .photo-item {
+        width: 50% !important;
+    }
+
+    .pageHeadingButtons {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .pageHeadingButtons .primaryButton, .pageHeadingButtons .secondaryButton {
+        width: 48%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mainPage > .container {
+        padding: 0;
+    }
+
+    .mainPage > .defaultHeader .navbar-brand img {
+        height: 34px;
+    }
+
+    .gallaryOverlay img.navigate_icons, .gallaryOverlay .overlayAction img {
+        width: 20px;
+    }
+
+    .customHeader {
+        width: 100%;
+        height: 60px;
+        display: flex !important;
+        align-items: center;
+        padding: 0 2rem;
+        box-shadow: 1px 1px 5px 0 rgb(208 208 208 / 69%);
+    }
+
+    .customHeader img {
+        height: 40px;
+    }
+
+    .mobileHeader {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding: 0 2rem;
+        box-shadow: 1px 1px 5px 0 rgb(208 208 208 / 69%) !important;
+    }
+
+    .for-mobile {
+        display: inline-block !important;
+    }
+
+    .for-pc {
+        display: none !important;
+    }
+
+    .otp-input .p-1 {
+        padding: 2.5px !important;
+    }
+
+    .homePage {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .without-banner-header img {
+    height: 26px;
+    }
+    .back-button {
+        height: 15px !important;
+        width: 8px !important;
+    }
+    .back-button-wrapper {
+        margin-right: 7px !important;
+    }
+    .temp3-gallary-image > img {
+        padding-top: 0px;
+    }
+    .temp-gallary-image.temp2-gallary-image .gallaryHeadingRight {
+        margin-bottom: 30px;
+    }
+    .temp-gallary-image.temp2-gallary-image .banner-image {
+        width: 90%;
+        height: 45%;
+    }
+    .temp-gallary-image.temp2-gallary-image {
+        padding: 100px 20px 0px 20px !important;
+    }
+    .temp-gallary-image.temp2-gallary-image img.banner-image{
+        height: 60% !important;
+        width: 95% !important;
+        margin: 10% 0px;
+    }
+    .login-back-button {
+        display: none;
+    }
+    .uploadOneShot .uploadingCard {
+        height: 285px;
+    }
+    .userCard label > span {
+        font-size: 12px;
+    }
+
+    .pageHeading h2 {
+        color: #3e6588;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .pageHeading p {
+        font-size: .9rem;
+    }
+
+    .companyLogo {
+        margin-right: 0 !important;
+        border-right: none !important;
+    }
+
+    .topLeft {
+        padding: 10px;
+    }
+
+    .overRideHeader img {
+        height: 26px;
+    }
+
+    .temp2-nav .gallaryHeadingRight ul li {
+        margin-left: 0 !important;
+        margin-right: 10px;
+    }
+
+    .temp2-nav .gallaryHeadingRight ul li a, .gallaryHeadingRight ul li a {
+        width: auto !important;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .temp2-nav .gallaryHeadingRight ul li a img, .gallaryHeadingRight ul li a img {
+        width: 20px;
+        height: auto;
+    }
+
+    .temp2-nav .gallaryHeadingRight {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .overRideHeader .backArrow img {
+        width: 14px;
+        height: auto;
+    }
+
+    .GallaryStyle4 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 80vh !important;
+        width: 80% !important;
+        align-items: center !important;
+        background-color: rgb(255 255 255 / 81%) !important;
+    }
+
+    .gallaryPage.sizeSmall .photo-item, .gallaryPage.sizeLarge .photo-item {
+        width: 50% !important;
+    }
+
+    .emptyGroup img {
+        width: 200%;
+        object-fit: contain;
+    }
+
+    .participantsTable .ReactVirtualized__Table__headerRow .ReactVirtualized__Table__headerColumn:nth-child(2),
+    .participantsTable .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__rowColumn:nth-child(2),
+    .participantsTable .ReactVirtualized__Table__headerRow .ReactVirtualized__Table__headerColumn:nth-child(3),
+    .participantsTable .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__rowColumn:nth-child(3) {
+        display: none !important;
+    }
+
+    .ReactVirtualized__Table__headerRow {
+        width: 100% !important;
+    }
+
+    /* .ReactVirtualized__Table__rowColumn {
+        flex: 0 1 200px !important
+    } */
+
+    .gallaryPage.dark .GallaryStyle4 {
+        background-color: rgb(21 21 21 / 81%) !important
+    }
+
+    .useCamera {
+        display: flex;
+    }
+
+    .clickIcons li a {
+        width: 60px;
+        height: 60px;
+    }
+
+    .clickIcons li a img {
+        width: 60px;
+    }
+
+    .clickCamera {
+        margin: 2rem 0;
+    }
+
+    .clickCameraCover img {
+        width: 100%;
+        height: 300px;
+    }
+
+
+    .gallaryHeadingLeft ul li a {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+    }
+    .gallaryHeadingLeft ul li a img{
+        width: 17px !important;
+        height: 17px;
+    }
+
+    .gallaryHeadingLeft ul li a img {
+        width: 14px;
+    }
+
+    .temp3-gallary-image .gallaryHeading, .temp5-gallary-image .gallaryHeading {
+        flex-direction: row !important;
+    }
+
+    .temp3-gallary-image .gallaryHeadingRight.d-flex.align-items-center, .temp5-gallary-image .gallaryHeadingRight.d-flex.align-items-center {
+        flex-direction: column !important;
+        align-items: flex-end !important;
+    }
+
+    .gallaryHeadingRight h2 {
+        padding-top: 10px;
+        font-size: 11px;
+    }
+
+    .temp3-gallary-image .gallaryHeading, .temp5-gallary-image .gallaryHeading {
+        padding: 0 15px !important;
+    }
+
+    .temp5-gallary-image .gallaryHeadingLeft h2 {
+        font-size: 20px !important;
+    }
+
+    .temp-gallary-image.temp4-gallary-image {
+        padding: 0px !important;
+    }
+
+    .para .roleDropdown.dropdown {
+        width: 100px;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+
+    .para .roleDropdown.dropdown img {
+        display: none;
+    }
+    .m-d-flex {
+        display: flex !important;
+    }
+
+    .overRideHeader .container, .overRideHeader .container-sm {
+        width: 100%;
+        max-width: 100% !important;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
+    .ReactVirtualized__Table__rowColumn {
+        flex: 0 1 200px !important
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+    .ReactVirtualized__Table__rowColumn {
+        flex: 0 1 250px !important
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    .homePage .col-md-3 {
+        width: 33.33% !important;
+    }
+
+    .userCard label > span {
+        font-size: 12px;
+    }
+
+    .pageHeading h2 {
+        color: #3e6588;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .pageHeading p {
+        font-size: .9rem;
+    }
+
+    .companyLogo {
+        margin-right: 0 !important;
+        border-right: none !important;
+    }
+
+    .topLeft {
+        padding: 10px;
+    }
+
+    .overRideHeader img {
+        height: 26px;
+    }
+
+    .temp2-nav .gallaryHeadingRight ul li {
+        margin-left: 0 !important;
+        margin-right: 10px;
+    }
+
+    .temp2-nav .gallaryHeadingRight ul li a, .gallaryHeadingRight ul li a {
+        width: auto !important;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .temp2-nav .gallaryHeadingRight ul li a img, .gallaryHeadingRight ul li a img {
+        width: 20px;
+        height: auto;
+    }
+
+    .temp2-nav .gallaryHeadingRight {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .temp-gallary-image.temp2-gallary-image {
+        padding: 50px 20px !important;
+    }
+
+    .overRideHeader .backArrow img {
+        width: 14px;
+        height: auto;
+    }
+
+    .GallaryStyle4 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 80vh !important;
+        width: 60% !important;
+        align-items: center !important;
+        background-color: rgb(255 255 255 / 81%) !important;
+    }
+
+    .gallaryPage.sizeSmall .photo-item, .gallaryPage.sizeLarge .photo-item {
+        width: 50% !important;
+    }
+
+    .emptyGroup img {
+        width: 200%;
+        object-fit: contain;
+    }
+
+    .participantsTable .ReactVirtualized__Table__headerRow .ReactVirtualized__Table__headerColumn:nth-child(2),
+    .participantsTable .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__rowColumn:nth-child(2),
+    .participantsTable .ReactVirtualized__Table__headerRow .ReactVirtualized__Table__headerColumn:nth-child(3),
+    .participantsTable .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__rowColumn:nth-child(3) {
+        display: none !important;
+    }
+
+    .ReactVirtualized__Table__headerRow {
+        width: 100% !important;
+    }
+
+    .ReactVirtualized__Table__rowColumn {
+        flex: 0 1 200px !important
+    }
+
+    .gallaryPage.dark .GallaryStyle4 {
+        background-color: rgb(21 21 21 / 81%) !important
+    }
+
+    .useCamera {
+        display: flex;
+    }
+
+    .clickIcons li a {
+        width: 60px;
+        height: 60px;
+    }
+
+    .clickIcons li a img {
+        width: 60px;
+    }
+
+    .clickCamera {
+        margin: 2rem 0;
+    }
+
+    .clickCameraCover img {
+        width: 100%;
+        height: 300px;
+    }
+
+
+    .gallaryHeadingLeft ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .gallaryHeadingLeft ul li a img {
+        width: 14px;
+    }
+
+    .temp3-gallary-image .gallaryHeading, .temp5-gallary-image .gallaryHeading {
+        flex-direction: row !important;
+    }
+
+    .temp3-gallary-image .gallaryHeadingRight.d-flex.align-items-center, .temp5-gallary-image .gallaryHeadingRight.d-flex.align-items-center {
+        flex-direction: column !important;
+        align-items: flex-end !important;
+    }
+
+    .gallaryHeadingRight h2 {
+        font-size: 13px;
+    }
+
+    .temp3-gallary-image .gallaryHeading, .temp5-gallary-image .gallaryHeading {
+        padding: 0 15px !important;
+    }
+
+    .temp5-gallary-image .gallaryHeadingLeft h2 {
+        font-size: 24px !important;
+    }
+
+    .temp-gallary-image.temp4-gallary-image {
+        padding: 0px !important;
+    }
+
+    .para .roleDropdown.dropdown {
+        width: 100px;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+    
+    .para .roleDropdown.dropdown img {
+        display: none;
+    }
+
+    .overRideHeader .container, .overRideHeader .container-sm {
+        width: 100%;
+        max-width: 100% !important;
+    }
+}
+
+
+@media (min-width: 1450px) {
+    .conver-edit-dropdown .dropdown button {
+        bottom: 0px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .drawerMenu {
+        display: none;
+    }
+    .hamburger-menu-transparent-navbar {
+        display: none !important;
+      }
+}
+@media (max-width: 1023px) {
+    .GallaryStyle4 {
+        border-radius: 6px 6px 6px 6px;
+    }
+    .emptyGallary {
+        background-size: 200px;
+        background-position: 50% 0;
+    }
+    .participantsTable .containers .para div button{
+        border-radius: 9999px;
+    }
+    .participantsTable .containers .para div button{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+    .overRideHeader .gallary-header-logo {
+        height: 26px;
+    }
+    .temp-gallary-image.temp2-gallary-image {
+        padding: 50px 20px 10px 20px !important;
+    }
+}
