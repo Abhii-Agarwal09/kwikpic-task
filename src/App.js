@@ -20,7 +20,7 @@ import LoginViaLink from "./views/auth/user/LoginViaLink";
 import ClickSelfie from "./views/auth/user/ClickSelfie";
 import RegisterUser from "./views/auth/user/RegisterUser";
 import NotFound from "views/notFound/NotFound";
-import Analytics from "views/main/home/components/Analytics/Analytics";
+import Analytics from "views/main/Analytics/Analytics";
 
 const App = () => {
   return (
@@ -37,7 +37,6 @@ const App = () => {
       />
       <BrowserRouter>
         <Routes>
-
           {/* landing page routerlinks */}
 
           <Route path="/auth" name="auth" element={<AuthRoute />}>
@@ -59,7 +58,6 @@ const App = () => {
 
           {/* 404 route */}
           <Route path="*" name="not found" element={<NotFound />} />
-
         </Routes>
       </BrowserRouter>
     </Provider>

@@ -1,17 +1,25 @@
+/* eslint-disable unused-imports/no-unused-imports */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 import React from "react";
-import { GET_MY_GROUPS } from "../../../../../redux-store/sagas/saga-actions";
+import {
+  GET_MY_GROUPS,
+  GET_SINGLE_GROUP,
+} from "../../../../redux-store/sagas/saga-actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useInfiniteScroll } from "react-infinite-scroll-hook";
+import { toast } from "react-toastify";
 
 const EventList = () => {
   const dispatch = useDispatch();
   const [currentPage, setCurrentPage] = useState({ page: 1, limit: 20 });
 
   const { groups, count, initialLoader } = useSelector((state) => state.groups);
+  const { activeEventId } = useSelector((state) => {
+    return state.analytics;
+  });
   // const { firstTime } = useSelector((state) => state.user);
   useEffect(() => {
     dispatch({
@@ -34,6 +42,24 @@ const EventList = () => {
     }));
   };
 
+  // set first group as active
+  useEffect(() => {
+    const firstGroup = groups[0]?.group;
+    if (firstGroup) {
+      const { _id, name, createdAt } = firstGroup;
+      const payload = {
+        groupId: _id,
+        groupName: name,
+        groupDate: formatDateToCustomFormat(createdAt),
+      };
+      toast.success("Hang on a sec, fetching your group details...");
+      dispatch({
+        type: "SET_ACTIVE_GROUP",
+        payload,
+      });
+    }
+  }, [groups]);
+
   useEffect(() => {
     setLoading(false);
   }, [groups.length]);
@@ -54,8 +80,24 @@ const EventList = () => {
       .replace(/\b(\d{2})\b/g, "$1th");
   }
 
+  const setActiveGroup = (e) => {
+    console.log(e);
+    if (!e.target.classList.contains("active-event")) {
+      toast.success("Hang on a sec, fetching your group details...");
+    }
+    const { groupId, groupName, groupDate } = e.target.dataset;
+    const payload = { groupId, groupName, groupDate };
+    dispatch({
+      type: "SET_ACTIVE_GROUP",
+      payload,
+    });
+  };
+
   return (
-    <div className="events-list-container" style={{ height: "100%", overflowY: "scroll", flex: 0.35 }}>
+    <div
+      className="events-list-container"
+      style={{ height: "100%", overflowY: "scroll", flex: 0.35 }}
+    >
       <h1 className="events-list-heading">Analytics</h1>
       <p className="event-list-caption">All Events Groups</p>
       <div ref={InfiniteList}>
@@ -66,15 +108,10 @@ const EventList = () => {
           return (
             <div
               key={index}
-              className="event"
-              onClick={(e) => {
-                const { groupId, groupName, groupDate } = e.target.dataset;
-                const payload = { groupId, groupName, groupDate };
-                dispatch({
-                  type: "SET_ACTIVE_GROUP",
-                  payload,
-                });
-              }}
+              className={`event ${
+                activeEventId === group?.group?._id ? "active-event" : ""
+              }`}
+              onClick={setActiveGroup}
               data-group-id={group?.group?._id || null}
               data-group-name={group?.group?.name || "No name"}
               data-group-date={formattedDate || "No date"}

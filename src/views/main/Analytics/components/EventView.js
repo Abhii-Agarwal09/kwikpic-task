@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable unused-imports/no-unused-imports */
 import React from "react";
-import { GET_SINGLE_GROUP } from "../../../../../redux-store/sagas/saga-actions";
+import { GET_SINGLE_GROUP } from "../../../../redux-store/sagas/saga-actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 
@@ -14,12 +14,12 @@ const EventView = () => {
       return state.analytics;
     });
 
-  useEffect(() => {
-    dispatch({
-      type: GET_SINGLE_GROUP,
-      payload: "65080fb815d5914436a502e4",
-    });
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch({
+  //     type: GET_SINGLE_GROUP,
+  //     payload: "65080fb815d5914436a502e4",
+  //   });
+  // }, [dispatch]);
 
   useEffect(() => {
     dispatch({

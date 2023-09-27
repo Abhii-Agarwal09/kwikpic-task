@@ -1,6 +1,6 @@
 import React from "react";
-import EventList from "./EventList";
-import EventView from "./EventView";
+import EventList from "./components/EventList";
+import EventView from "./components/EventView";
 
 const Analytics = () => {
   return (
