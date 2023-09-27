@@ -55,7 +55,11 @@ const EventView = () => {
             <span className="analytic__number-total">
               /{" "}
               {activeEvent?.group?.totalImages +
-                activeEvent?.group?.totalVideos || 0}
+                activeEvent?.group?.totalVideos >
+              0
+                ? activeEvent?.group?.totalImages +
+                  activeEvent?.group?.totalVideos
+                : 0}
             </span>
           </p>
         </div>
