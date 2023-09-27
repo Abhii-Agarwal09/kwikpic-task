@@ -81,7 +81,6 @@ const EventList = () => {
   }
 
   const setActiveGroup = (e) => {
-    console.log(e);
     if (!e.target.classList.contains("active-event")) {
       toast.success("Hang on a sec, fetching your group details...");
     }
