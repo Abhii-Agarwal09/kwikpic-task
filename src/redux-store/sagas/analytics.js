@@ -6,6 +6,7 @@ import { setActiveEvent, setActiveEventId } from "redux-store/slices/analytics";
 import { toast } from "react-toastify";
 
 async function getGroupAnalytics({ payload }) {
+  if (!payload) return;
   return AXIOS.get(`/api/app/analytics/groupAnalytics/${payload}`);
 }
 
